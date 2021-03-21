@@ -4,4 +4,6 @@ My first Graphics related game 😃.
 Use [`Pydroid 3`](https://play.google.com/store/apps/details?id=ru.iiec.pydroid3) and [`PyModule Installer`](https://play.google.com/store/apps/details?id=ru.iiec.pydroid3.quickinstallrepo) for this.
 There in the `pip` install `pygame` module to run the game.
 **Game Play**
+
 ![](game_preview.gif)
+
