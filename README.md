@@ -6,5 +6,5 @@ There in the `pip` install `pygame` module to run the game.
 
 **Game Play**
 
-![](gameover.mp3)
+![](game_preview.gif)
 
