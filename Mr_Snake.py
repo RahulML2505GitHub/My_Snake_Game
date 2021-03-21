@@ -117,29 +117,36 @@ def gameloop():
         else:
 
             for event in pygame.event.get():
+                # Quit command
                 if event.type == pygame.QUIT:
                         exit_game = True
 
                 if event.type == pygame.KEYDOWN:
+                    # Quit command by '0'
                     if event.type == pygame.K_0:
                         exit_game = True
 
+                    # Going Right command
                     if event.key == pygame.K_6:
                         velocity_x = init_velocity
                         velocity_y = 0
 
+                    # Going Left command
                     if event.key == pygame.K_4:
                         velocity_x = - init_velocity
                         velocity_y = 0
 
+                    # Going Up command
                     if event.key == pygame.K_2:
                         velocity_y = - init_velocity
                         velocity_x = 0
 
+                    # Going Down command
                     if event.key == pygame.K_8:
                         velocity_y = init_velocity
                         velocity_x = 0
 
+                    # Increasing Score ( Cheating ) command
                     if event.key == pygame.K_KP_PLUS:
                         score = score + 10
 
