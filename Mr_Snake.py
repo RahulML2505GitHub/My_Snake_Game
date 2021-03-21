@@ -106,7 +106,7 @@ def gameloop():
 
             for event in pygame.event.get():
                 if event.type == pygame.KEYDOWN:
-                    if event.type == pygame.K_0:
+                    if event.key == pygame.K_0:
                         exit_game = True
 
                 if event.type == pygame.KEYDOWN:
@@ -123,7 +123,7 @@ def gameloop():
 
                 if event.type == pygame.KEYDOWN:
                     # Quit command by '0'
-                    if event.type == pygame.K_0:
+                    if event.key == pygame.K_0:
                         exit_game = True
 
                     # Going Right command
