@@ -5,5 +5,5 @@ Use [`Pydroid 3`](https://play.google.com/store/apps/details?id=ru.iiec.pydroid3
 There in the `pip` install `pygame` module to run the game.
 **Game Play**
 
-![](game_preview.gif)
+![](gameover.mp3)
 
