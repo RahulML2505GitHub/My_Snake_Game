@@ -161,6 +161,10 @@ def gameloop():
                 if score>int(hiscore):
                     hiscore = score
 
+            if score>int(hiscore):
+                hiscore = score
+
+
             gameWindow.fill(white)
             gameWindow.blit(bgimg, (0, 0))
             text_screen("Score: " + str(score) + "  Hiscore: "+ str(hiscore), red, 5, 5, 60)
